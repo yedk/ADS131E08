@@ -160,9 +160,21 @@ always@(posedge clk_50M or negedge rst_n) begin
 			end
 			ADS_INIT : begin
 			timer_en <= 1'b1;
-				if()begin
+			CS_INIT <= 1'b1;
+				if(cnt == 21'h1fff)begin
+				CS_INIT <= 1'b0;
+				START_INIT <= 1'b0;
+				PWDN_INIT <= 1'b1;
+				RESET_INIT <= 1'b1;
 				end
-				else if()begin
+				else if(cnt == 21'h101fff)begin
+				RESET_INIT <= 1'b0;
+				end
+				else if(cnt == 21'h111fff)begin
+				RESET_INIT <= 1'b1;
+				end
+				else if() begin
+				
 				end
 				else begin
 				end

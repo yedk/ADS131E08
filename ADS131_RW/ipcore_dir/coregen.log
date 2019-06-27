@@ -1,0 +1,7 @@
+INFO:sim:172 - Generating IP...
+ERROR:sim - Unable to clean the temporary directory
+   'F:\adc_acqire\code\ADS131_RW\ipcore_dir\tmp\_cg\' because it is being used
+   by another person, process, or program.  Close any processes or programs that
+   might be using this directory and try again.
+ERROR:sim - Failed to generate 'clk'.  
+Wrote CGP file for project 'clk'.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="172" delta="new" >Generating IP...
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" >Unable to clean the temporary directory &apos;F:\adc_acqire\code\ADS131_RW\ipcore_dir\tmp\_cg\&apos; because it is being used by another person, process, or program.  Close any processes or programs that might be using this directory and try again.
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" >Failed to generate &apos;clk&apos;.  
+</msg>
+
+</messages>
+
